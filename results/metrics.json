@@ -1,0 +1,45 @@
+{
+  "dataset": "UCI Diabetes 130-US Hospitals (1999-2008)",
+  "encounters": 99340,
+  "patients": 69987,
+  "readmitted_30d_percent": 11.39,
+  "split": {
+    "train": 63462,
+    "validation": 16105,
+    "test": 19773
+  },
+  "test_results": [
+    {
+      "model": "Logistic regression",
+      "roc_auc": 0.6675,
+      "roc_auc_95ci": [
+        0.6559,
+        0.6795
+      ],
+      "pr_auc": 0.2238,
+      "threshold": 0.136,
+      "f1": 0.2764,
+      "precision": 0.2095,
+      "recall": 0.406,
+      "flagged_percent": 21.99,
+      "brier": 0.0961
+    },
+    {
+      "model": "Gradient boosting",
+      "roc_auc": 0.6764,
+      "roc_auc_95ci": [
+        0.6649,
+        0.6894
+      ],
+      "pr_auc": 0.2376,
+      "threshold": 0.1406,
+      "f1": 0.289,
+      "precision": 0.211,
+      "recall": 0.4581,
+      "flagged_percent": 24.63,
+      "brier": 0.0953
+    }
+  ],
+  "best_model": "Gradient boosting",
+  "note": "Threshold chosen to maximise F1 on the validation set; all metrics are on held-out test patients."
+}

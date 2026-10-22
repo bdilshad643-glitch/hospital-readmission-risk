@@ -1,0 +1,17 @@
+{
+  "discharge_disposition": 0.50011,
+  "number_inpatient": 0.18204,
+  "diag_1_group": 0.14924,
+  "prior_visits_total": 0.13749,
+  "diag_2_group": 0.10249,
+  "admission_type": 0.05448,
+  "number_diagnoses": 0.05307,
+  "age": 0.05271,
+  "num_medications": 0.05249,
+  "diag_3_group": 0.04646,
+  "medical_specialty": 0.04103,
+  "med_glimepiride": 0.03756,
+  "time_in_hospital": 0.03565,
+  "med_metformin": 0.03365,
+  "A1C_result": 0.03016
+}
